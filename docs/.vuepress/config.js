@@ -2,7 +2,7 @@
  * Author  rhys.zhao
  * Date  2023-03-02 14:02:43
  * LastEditors  rhys.zhao
- * LastEditTime  2023-03-02 18:06:56
+ * LastEditTime  2023-03-06 16:44:57
  * Description
  */
 
@@ -44,7 +44,16 @@ module.exports = {
       '/base/': [
         {
           text: '基础篇',
-          children: ['/base/README.md', '/base/plugin.md', '/base/loader.md', '/base/assets.md']
+          children: [
+            '/base/README.md',
+            '/base/example.md',
+            '/base/plugin.md',
+            '/base/loader.md',
+            '/base/asset.md',
+            '/base/server.md',
+            '/base/env.md',
+            '/base/summary.md'
+          ]
         }
       ],
       '/senior/': [
