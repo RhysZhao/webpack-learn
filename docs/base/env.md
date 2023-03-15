@@ -2,7 +2,7 @@
  * Author  rhys.zhao
  * Date  2023-03-06 11:28:14
  * LastEditors  rhys.zhao
- * LastEditTime  2023-03-06 18:04:14
+ * LastEditTime  2023-03-15 17:31:17
  * Description
 -->
 
@@ -98,7 +98,7 @@ const path = require('path');
 module.exports = {
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, '../dist'),
     clean: true
   },
   mode: 'production'

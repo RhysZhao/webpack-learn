@@ -2,7 +2,7 @@
  * Author  rhys.zhao
  * Date  2023-03-02 14:02:43
  * LastEditors  rhys.zhao
- * LastEditTime  2023-03-06 18:05:19
+ * LastEditTime  2023-03-15 17:20:13
  * Description
  */
 
@@ -59,7 +59,15 @@ module.exports = {
       '/senior/': [
         {
           text: '进阶篇',
-          children: ['/senior/README.md']
+          children: [
+            '/senior/README.md',
+            '/senior/source-map.md',
+            '/senior/hmr.md',
+            '/senior/tree-shaking.md',
+            '/senior/code-split.md',
+            '/senior/react-cli.md',
+            '/senior/optimize.md'
+          ]
         }
       ],
       '/origin/': [
