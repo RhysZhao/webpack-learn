@@ -1,0 +1,1 @@
+const t={key:"v-409946a6",path:"/senior/react-cli.html",title:"\u5F15\u5165 React",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1678961155e3,contributors:[{name:"RhysZhao",email:"1009282428@qq.com",commits:1}]},filePathRelative:"senior/react-cli.md"};export{t as data};

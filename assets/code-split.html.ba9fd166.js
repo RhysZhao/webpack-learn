@@ -1,0 +1,1 @@
+const e={key:"v-065e6b8e",path:"/senior/code-split.html",title:"\u4EE3\u7801\u5206\u5272",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1678961155e3,contributors:[{name:"RhysZhao",email:"1009282428@qq.com",commits:1}]},filePathRelative:"senior/code-split.md"};export{e as data};
