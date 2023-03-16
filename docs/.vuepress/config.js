@@ -2,12 +2,12 @@
  * Author  rhys.zhao
  * Date  2023-03-02 14:02:43
  * LastEditors  rhys.zhao
- * LastEditTime  2023-03-15 17:20:13
+ * LastEditTime  2023-03-16 18:01:53
  * Description
  */
 
 module.exports = {
-  base: '/docs/',
+  base: '/webpack-learn/',
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: '/imgs/favicon.ico' }]],
   title: '速学Webpack5',
