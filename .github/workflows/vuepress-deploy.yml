@@ -7,11 +7,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
-      - name: vuepress-deploy
-        uses: jenkey2011/vuepress-deploy@master
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: RhysZhao/webpack-learn
-          TARGET_BRANCH: master
-          BUILD_SCRIPT: npm i && npm run docs:build
-          BUILD_DIR: docs/.vuepress/dist
+      - name: Install and Build
+        run: |
+          npm install
+          npm run docs:build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          branch: dist
+          folder: docs/.vuepress/dist
