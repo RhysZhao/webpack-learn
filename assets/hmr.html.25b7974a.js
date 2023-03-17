@@ -1,0 +1,1 @@
+import{_ as e,o as r,a,d as t,b as c}from"./app.eb91e7ca.js";const o={},s={id:"hmr",tabindex:"-1"},_=c("a",{class:"header-anchor",href:"#hmr","aria-hidden":"true"},"#",-1);function h(n,d){return r(),a("h1",s,[_,t(" HMR")])}var m=e(o,[["render",h],["__file","hmr.html.vue"]]);export{m as default};
